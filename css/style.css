@@ -1,0 +1,46 @@
+        * {
+        	margin: 0;
+        	padding: 0;
+        }
+        .background {
+        	background-image: url(img/background.jpg);
+        	background-size: cover;
+        	height: 100vh;
+        }
+        nav {
+            position: relative;
+            list-style: none;
+            margin-left: 10%;
+		}
+		ul {
+			list-style: none;
+			align-items: center;
+			padding: 20px;
+		}
+		.right-item {
+			float: right;
+		}
+		.left-item {
+			float: left;
+		}
+		ul li a {
+			text-decoration: none;
+			padding: 30px;
+			color: #ffffff;
+			font-family: Agency FB;
+			font-size: 30px;
+            line-height: 1.6;
+            -webkit-text-decoration: white solid underline;
+            text-decoration: white solid underline;
+            -webkit-text-underline-position: under;
+            text-underline-position: under;
+		}
+		.menu {
+			position: relative;
+			height: 70px;
+			/*background-color: #fff;*/
+			text-align: center;
+		}
+		ul li a:hover {
+            color: #d65454;
+		}
